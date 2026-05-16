@@ -46,4 +46,9 @@ ros2 launch orbbec_camera gemini2.launch.py
 ros2 launch ac_link start_all_aclink.c
 ```
 
+### 雷达启动
+```bash
+ros2 launch ac_link start_all_aclink.c
+```
+
 > 快捷复制
