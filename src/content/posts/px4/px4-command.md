@@ -32,8 +32,6 @@ passwordHint: ""
 
 ## 仿真
 
-供快速复制使用
-
 ### ego相关
 #启动仿真程序
 cd ~/PX4_Firmware
