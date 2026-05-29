@@ -12,7 +12,7 @@ published: 2026-05-19
 updated: 2026-05-15
 pinned: true
 description: "仿真"
-image: "./cover.avif"
+image: ""
 tags: ["仿真"]
 category: 仿真
 
