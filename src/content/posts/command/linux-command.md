@@ -12,7 +12,7 @@ published: 2026-05-15
 updated: 2026-05-15
 pinned: true
 description: "Linux常用命令"
-image: "./cover.avif"
+image: "./images/ubuntu.avif"
 tags: ["命令"]
 category: Linux
 
