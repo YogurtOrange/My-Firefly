@@ -12,7 +12,7 @@ published: 2026-05-16
 updated: 2026-05-17
 pinned: true
 description: "测试"
-image: /guide/cover.avif
+image: 
 tags: ["测试"]
 category: 测试
 
