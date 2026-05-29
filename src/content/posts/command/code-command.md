@@ -12,7 +12,7 @@ published: 2026-05-15
 updated: 2026-05-15
 pinned: true
 description: "快捷命令"
-image: ./guide/cover.avif
+image: /guide/cover.avif
 tags: ["命令"]
 category: 命令
 
