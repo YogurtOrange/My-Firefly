@@ -12,7 +12,7 @@ published: 2026-05-24
 updated: 2026-05-24
 pinned: true
 description: "github常用指令"
-image: "./images/github.avif"
+image: ./images/github.avif
 tags: ["github"]
 category: github
 
