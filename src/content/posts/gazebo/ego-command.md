@@ -12,7 +12,7 @@ published: 2026-05-24
 updated: 2026-05-24
 pinned: true
 description: "仿真指令"
-image: /images/gazebo.avif
+image: ./gazebo.avif
 tags: ["仿真"]
 category: 仿真
 
