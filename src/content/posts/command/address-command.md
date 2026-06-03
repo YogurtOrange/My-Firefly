@@ -55,3 +55,5 @@ passwordHint: ""
 ```bash
 -i https://mirrors.cloud.tencent.com/pypi/simple/
 ```
+
+### 建议在网速慢的时候使用，有奇招
