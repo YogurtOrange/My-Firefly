@@ -9,7 +9,7 @@ published: 2026-06-03
 
 # ==================== 推荐填写的常用字段 ====================
 
-updated: 
+updated: 2026-06-03
 pinned: true
 description: "国内下载加速"
 tags: ["换源"]
