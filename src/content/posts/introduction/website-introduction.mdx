@@ -11,20 +11,22 @@ draft: false
 
 import MagicBento from '@components/components/MagicBento'
 
-<MagicBento
-  textAutoHide={true}
-  enableStars={false}
-  enableSpotlight={true}
-  enableBorderGlow={true}
-  enableTilt={false}
-  enableMagnetism={false}
-  clickEffect={true}
-  spotlightRadius={200}
-  particleCount={6}
-  glowColor="132, 0, 255"
-  disableAnimations={false}
-  client:only="react"
-/>
+{import.meta.env.SSR ? null : (
+  <MagicBento
+    textAutoHide={true}
+    enableStars={false}
+    enableSpotlight={true}
+    enableBorderGlow={true}
+    enableTilt={false}
+    enableMagnetism={false}
+    clickEffect={true}
+    spotlightRadius={200}
+    particleCount={6}
+    glowColor="132, 0, 255"
+    disableAnimations={false}
+    client:only="react"
+  />
+)}
 
 ## GitHub 仓库卡片
 
