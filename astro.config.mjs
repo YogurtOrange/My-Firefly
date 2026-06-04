@@ -186,7 +186,7 @@ export default defineConfig({
 
             return true;
         },
-		}), mdx(), react()],
+		}), react() ,mdx() ],
     markdown: {
         remarkPlugins: [
             remarkMath,
