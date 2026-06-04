@@ -1,0 +1,27 @@
+<div id="magic-bento-root" style="min-height: 200px;"></div>
+
+<script>
+  import React from 'react';
+  import { createRoot } from 'react-dom/client';
+  import MagicBento from '@components/components/MagicBento';
+
+  const container = document.getElementById('magic-bento-root');
+  if (container) {
+    const root = createRoot(container);
+    root.render(
+      React.createElement(MagicBento, {
+        textAutoHide: true,
+        enableStars: false,
+        enableSpotlight: true,
+        enableBorderGlow: true,
+        enableTilt: false,
+        enableMagnetism: false,
+        clickEffect: true,
+        spotlightRadius: 200,
+        particleCount: 6,
+        glowColor: "132, 0, 255",
+        disableAnimations: false
+      })
+    );
+  }
+</script>
