@@ -9,7 +9,7 @@ published: 2026-05-24
 
 # ==================== 推荐填写的常用字段 ====================
 
-updated: 2026-05-24
+updated: 2026-06-04
 pinned: true
 description: "github常用指令"
 image: ./github.avif
@@ -81,4 +81,9 @@ git branch -a
 ### 创建新分支
 ```bash
 git branch <分支名>
+```
+
+### 允许合并无关历史（从 ZIP 包连接仓库时用）
+```bash
+git merge origin/分支名 --allow-unrelated-histories
 ```
