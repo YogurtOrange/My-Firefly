@@ -9,12 +9,12 @@ published: 2026-05-15
 
 # ==================== 推荐填写的常用字段 ====================
 
-updated: 2026-05-15
+updated: 2026-06-11
 pinned: true
 description: "快捷命令"
 image: ""
 tags: ["命令"]
-category: 命令
+category: 飞控指令
 
 # ==================== 可选字段 ====================
 
@@ -36,14 +36,29 @@ passwordHint: ""
 
 ### 代码示例
 
-### 奥比中光启动配置
+### 启动奥比中光
 ```bash
-ros2 launch orbbec_camera gemini2.launch.py
+ros2 launch orbbec_camera gemini2.launch.py 
 ```
 
-### 雷达启动
+### 启动yolo配置文件
 ```bash
-ros2 launch ac_link start_all_aclink.c
+python3 yolo_config.py 
+```
+
+### 运行斜视识别程序
+```bash
+python3 ch_robot_up.py 
+```
+
+### 模拟雷达发送程序
+```bash
+python3 odom_pub.py
+```
+
+### 发布话题订阅
+```bash
+ros2 topic echo /multi/position/class
 ```
 
 > 快捷复制
